@@ -50,9 +50,41 @@ line-height: 75px;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #fff ;
+    border-bottom: 1px solid #fff;
 }
 
 .active {
     border-bottom: 1px solid #fff;
+}
+
+/*Hero image for main page (Under header) */
+
+#hero-outer {
+    height: 539px;
+    width: 100%;
+    overflow: hidden;
+ 
+}
+
+#hero-image {
+    height: 539px;
+    width: 100%;
+    background: url('../images/BTC-HERO-IMAGE.jpg');
+
+    /*Hero zoom effect on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+/*Level of zoom for hero image*/
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+
+    }
+    to{
+        transform: scale(1.1);
+
+    }
 }
