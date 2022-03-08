@@ -25,6 +25,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 1%;
 }
 
 /* navigation links */
@@ -83,7 +84,7 @@ line-height: 75px;
     animation-fill-mode: forwards;
 }
 
-/*Level of zoom for hero image*/
+/*zoom for image*/
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -99,18 +100,14 @@ line-height: 75px;
     font-size: 124%;
     font-family: Oswald, sans-serif;
     letter-spacing: 3px;
-
     width: 330px;
     height: 200px;
-
     padding-top: 40px;
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 40px;
-
     background-color: rgba(0, 0, 0, .5);
     bottom: 50px;
     right: 350px;
-
     position: absolute;
 }
