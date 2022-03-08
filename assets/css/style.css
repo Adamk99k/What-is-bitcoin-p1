@@ -114,14 +114,13 @@ line-height: 75px;
 
 #section-one {
     background-color: rgb(233, 17, 233);
-    height: 550px;
-    margin: 2%;
+    height: 650px;
 
 }
 
 #div-one {
     width: 30.5%;
-    height: 500px;
+    height: 600px;
     background-color: black;
     float: left;
     margin: 2%;
@@ -131,7 +130,7 @@ line-height: 75px;
 
 #div-two {
     width: 30.5%;
-    height: 500px;
+    height: 600px;
     background-color: rgb(238, 9, 9);
     float: left;
     margin: 2% 0% 1% 0%;
@@ -141,12 +140,18 @@ line-height: 75px;
 
 #div-three {
     width: 30.5%;
-    height: 500px;
+    height: 600px;
     background-color: aqua;
     float: left;
     margin: 2%;
     color: black;
     font-size: 100px;
+}
 
-    
+.quotes {
+    background-color: blue ;
+    width: 20%;
+    height: 300px;
+    float: left;
+    margin: 2.3%;
 }
