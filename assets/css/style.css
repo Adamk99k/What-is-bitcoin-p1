@@ -25,7 +25,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 
 /* navigation links */
@@ -110,4 +110,12 @@ line-height: 75px;
     bottom: 50px;
     right: 350px;
     position: absolute;
+}
+
+#div-one {
+    margin: 2%;
+    width: 30%;
+    height: 550px;
+    background-color: black;
+
 }
