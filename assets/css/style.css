@@ -112,10 +112,41 @@ line-height: 75px;
     position: absolute;
 }
 
-#div-one {
-    margin: 2%;
-    width: 30%;
+#section-one {
+    background-color: rgb(233, 17, 233);
     height: 550px;
-    background-color: black;
+    margin: 2%;
 
+}
+
+#div-one {
+    width: 30.5%;
+    height: 500px;
+    background-color: black;
+    float: left;
+    margin: 2%;
+    font-size: 100px;
+
+}
+
+#div-two {
+    width: 30.5%;
+    height: 500px;
+    background-color: rgb(238, 9, 9);
+    float: left;
+    margin: 2% 0% 1% 0%;
+    font-size: 100px;
+
+}
+
+#div-three {
+    width: 30.5%;
+    height: 500px;
+    background-color: aqua;
+    float: left;
+    margin: 2%;
+    color: black;
+    font-size: 100px;
+
+    
 }
