@@ -112,46 +112,25 @@ line-height: 75px;
     position: absolute;
 }
 
-#section-one {
-    background-color: rgb(233, 17, 233);
-    height: 650px;
+/* First section for text*/
 
+#section1 {
+    height: 539px;
 }
+
 
 #div-one {
-    width: 30.5%;
-    height: 600px;
-    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    width: 37%;
     float: left;
-    margin: 2%;
-    font-size: 100px;
 
 }
+
 
 #div-two {
-    width: 30.5%;
-    height: 600px;
-    background-color: rgb(238, 9, 9);
-    float: left;
-    margin: 2% 0% 1% 0%;
-    font-size: 100px;
-
-}
-
-#div-three {
-    width: 30.5%;
-    height: 600px;
-    background-color: aqua;
-    float: left;
-    margin: 2%;
-    color: black;
-    font-size: 100px;
-}
-
-.quotes {
-    background-color: blue ;
-    width: 20%;
-    height: 300px;
-    float: left;
-    margin: 2.3%;
+    padding-top: 30px;
+    width: 40%;
+    float: right;
 }
