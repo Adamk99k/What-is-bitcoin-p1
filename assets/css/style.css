@@ -127,7 +127,7 @@ line-height: 75px;
     padding-right: 2%;
     width: 37%;
     float: left;
-    border: 10px solid white;
+    border: 5px dashed white;
     background-color: orange;
 
 }
@@ -150,14 +150,15 @@ line-height: 75px;
 #div-one p {
     background-color: transparent;
     color: black;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-family: arial, sans-serif;
-    font-weight: bolder;
+    font-weight: 650;
     
 }
 
 
 em {
     background-color: transparent;
-    font-size: 21px;
+    color: black;
+    font-size: 19px;
 }
