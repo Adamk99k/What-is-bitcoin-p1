@@ -142,9 +142,23 @@ line-height: 75px;
 
 
 #div-two {
-    padding-top: 30px;
+    padding: 2%;
     width: 40%;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-bottom: 2%;
     float: right;
+    border: 5px dashed white;
+}
+
+#div-two li {
+    text-align: center;
+}
+
+#div-two h1 {
+    margin: 2%;
+    text-align: center;
 }
 
 #div-one p {
@@ -161,4 +175,8 @@ em {
     background-color: transparent;
     color: black;
     font-size: 19px;
+}
+
+li {
+    display: block;
 }
