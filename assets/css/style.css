@@ -183,16 +183,6 @@ li {
     display: block;
 }
 
-.bottom {
-    background-color: red;
-    position: absolute;
-    bottom:inherit;
-}
-
-#new1 {
-    background-color: red;
-}
-
 
 
 /* new section div  */
