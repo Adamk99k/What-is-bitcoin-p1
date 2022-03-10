@@ -115,7 +115,7 @@ line-height: 75px;
 /* First section for text*/
 
 #section1 {
-    height: 539px;
+    height: 1132px;
 }
 
 
@@ -148,7 +148,7 @@ line-height: 75px;
     margin-left: 4%;
     margin-right: 2%;
     margin-bottom: 2%;
-    float: right;
+    float: left;
     border: 5px dashed rgb(0, 0, 0);
 }
 
@@ -181,4 +181,10 @@ em {
 
 li {
     display: block;
+}
+
+.bottom {
+    background-color: red;
+    position: absolute;
+    bottom:inherit;
 }
