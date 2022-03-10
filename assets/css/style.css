@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 * {
-margin: 0;
-padding: 0;
-border: none;
-color: aliceblue;
-background-color: #9e00c5;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: aliceblue;
+    background-color: #9e00c5;
 }
 
-body{
+body {
     font-family: Lato, sans-serif;
     font-weight: 300;
 }
 
 /* Headings and Logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -35,10 +36,12 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
-#menu, #logo {
-line-height: 75px;
+#menu,
+#logo {
+    line-height: 75px;
 
 }
+
 #menu li {
     float: right;
     list-style-type: none;
@@ -65,10 +68,11 @@ line-height: 75px;
     width: 100%;
     overflow: hidden;
     position: relative;
- 
+
 }
 
-#cover-text, #cover-text p {
+#cover-text,
+#cover-text p {
     color: #fff;
     background-color: transparent;
 }
@@ -86,11 +90,12 @@ line-height: 75px;
 
 /*zoom for image*/
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
 
     }
-    to{
+
+    to {
         transform: scale(1.1);
 
     }
@@ -114,71 +119,7 @@ line-height: 75px;
 
 /* First section for text*/
 
-#section1 {
-    height: 1132px;
-}
-
-
 #div-one {
-    margin: 2%;
-    padding-top: 30px;
-    padding-bottom: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 37%;
-    float: left;
-    border: 5px dashed white;
-    background-color: orange;
-
-}
-
-#div-one h1 {
-    text-align: center;
-    margin: 2% 2%;
-    background-color: transparent;
-    color: black;
-    font-size: 200%;
-}
-
-
-#div-two {
-    padding: 2%;
-    width: 40%;
-    margin-top: 2%;
-    margin-left: 4%;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    float: left;
-    border: 5px dashed rgb(0, 0, 0);
-}
-
-#div-two li {
-    text-align: center;
-    font-weight: 650;
-    letter-spacing: 3px;
-}
-
-#div-two h1 {
-    margin: 0.5% 2% 5% 2%;
-    text-align: center;
-}
-
-#div-one p {
-    background-color: transparent;
-    color: black;
-    letter-spacing: 2px;
-    font-family: arial, sans-serif;
-    font-weight: 650;
-    
-}
-
-
-em {
-    background-color: transparent;
-    color: black;
-    font-size: 19px;
-}
-
-li {
-    display: block;
+    border: 5px solid blue;
+    width: 60%;
 }
