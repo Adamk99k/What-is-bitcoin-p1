@@ -182,18 +182,3 @@ em {
 li {
     display: block;
 }
-
-
-
-/* new section div  */
-
-#right-bottom {
-    border: 5px solid rgb(0, 0, 0);
-    margin-left: 49.5%;
-    margin-right: 5.5%;
-    margin-top: 3%;
-}
-
-#right-bottom h1 {
-    text-align: center;
-}
