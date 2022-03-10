@@ -119,10 +119,42 @@ h2 {
 
 /* First section for text*/
 
-#div-one {
-    border: 5px solid blue;
+#section-one {
+    width: 100%;
 }
 
-#section-one {
+#left-one {
+    border: 5px solid blue;
+    height: 650px;
     width: 60%;
+    float: left;
+    overflow: auto;
+}
+
+#left-one h1 {
+    text-align: center;
+    margin: 2% 2%;
+    font-size: 280%;
+}
+
+#left-one p {
+    letter-spacing: 2px;
+    font-weight: 650;
+    
+}
+
+
+em {
+    color:  black;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+#right-div {
+    border: 5px solid black;
+    float: right;
+    height: 650px;
+    width: 39%;
+    overflow: hidden;
 }
