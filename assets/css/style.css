@@ -117,32 +117,39 @@ h2 {
     position: absolute;
 }
 
-/* First section for text*/
+/* First sections for text*/
 
 #section-one {
-    width: 100%;
-}
-
-#left-one {
-    border: 5px solid blue;
-    height: 650px;
-    width: 60%;
+    margin: 50px;
     float: left;
+    border: 5px solid blue;
+    height: 850px;
+    width: 50%;
     overflow: auto;
 }
 
-#left-one h1 {
+#section-two {
+    margin: 50px;
+    border: 5px solid black;
+    width: 40%;
+    height: 850px;
+    float: right;
+    overflow: hidden;
+}
+
+#left-div {
+    text-align: center;
+}
+
+#left-div h1 {
     text-align: center;
     margin: 2% 2%;
-    font-size: 280%;
 }
 
-#left-one p {
+#left-div p {
     letter-spacing: 2px;
-    font-weight: 650;
-    
+    font-weight: 650;  
 }
-
 
 em {
     color:  black;
@@ -152,9 +159,5 @@ em {
 }
 
 #right-div {
-    border: 5px solid black;
-    float: right;
-    height: 650px;
-    width: 39%;
-    overflow: hidden;
+    border: 1px solid red;
 }
