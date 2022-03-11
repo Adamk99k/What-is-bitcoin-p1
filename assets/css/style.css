@@ -168,5 +168,7 @@ em {
     background-image: url('../images/quotes-background.png');
     float: left;
     width: 100%;
-
+    height: 350px;
+    background-position: center;
+    overflow: hidden;
 }
