@@ -5,12 +5,12 @@
     padding: 0;
     border: none;
     color: aliceblue;
-    background-color: #9e00c5;
 }
 
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
+    background-color: #9e00c5;
 }
 
 /* Headings and Logo */
@@ -166,4 +166,7 @@ em {
 
 #section-three {
     background-image: url('../images/quotes-background.png');
+    float: left;
+    width: 100%;
+
 }
