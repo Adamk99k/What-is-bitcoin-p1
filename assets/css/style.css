@@ -163,3 +163,7 @@ em {
 }
 
 /*Section three for quotes */
+
+#section-three {
+    background-image: url('../images/quotes-background.png');
+}
