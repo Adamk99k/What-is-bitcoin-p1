@@ -215,8 +215,8 @@ footer h1 {
     text-align: center;
 }
 
-a {
-    color:aqua;
+#whitepaper-link {
+    color: aqua;
     font-weight: 900;
-    letter-spacing: 1%;
+    letter-spacing: 10px;
 }
