@@ -183,7 +183,7 @@ em {
     box-sizing: border-box;
 }
 
-/*                  Footer                 */
+/*     xxxxxxxxxx      Footer     xxxxxxxxxx            */
 
 
 footer {
@@ -193,6 +193,9 @@ footer {
     margin-top: 2%;
 }
 
+footer ul {
+    height: 250px;
+}
 
 #social-links {
     text-align: center;
