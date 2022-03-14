@@ -42,17 +42,19 @@
         <!--Contact Form--> 
 
         <section id="form-section">
-            <form>
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
                 <h2>Let's get this form filled in.</h2>
 
-                <label for="fname-lname">First & Last Name</label>
+                <label for="fname-lname" class="form-center">First & Last Name</label>
                 <input id="fname-lname" name="First_and_Last_name" type="text" class="text-form" required> 
 
-                <label for="email">Email Address</label>
+                <label for="email" class="form-center">Email Address</label>
                 <input id="email" name="email_address" type="email" class="text-form" required> 
 
-                <label for="message-form">What do you need help with?</label>
-                <input id="message-form" name="Whats_the_question" type="text" class="text-form">
+                <label for="message-form" class="form-center">What do you need help with?</label>
+                <input id="message-form" name="Whats_the_question" type="text" class="text-form" required>
+
+                <input class="send-message" type="submit" value="SUBMIT">
 
             </form>
             
