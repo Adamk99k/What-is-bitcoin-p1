@@ -259,3 +259,14 @@ footer h1 {
     padding: 2%;
     padding-top: 0;
 }
+
+/* Form page */
+
+#form-section {
+    color: #fff;
+    background-color: rgb(241, 19, 48);
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    
+}
