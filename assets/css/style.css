@@ -262,8 +262,14 @@ footer h1 {
 
 /* Form page */
 
-#form-section {
-    border: 3px solid red;
+
+#form-section h2 {
+    font-size: 25px;
+    margin: 4%;
+}
+
+#form-section label {
+    font-size: 20px;
 }
 
 .contact-form {
@@ -277,7 +283,7 @@ footer h1 {
 .text-form {
     border: 2px solid white;
     margin: 10px;
-    width: 85%;
+    width: 89%;
     color: #fff;
     background-color: transparent;
 }
