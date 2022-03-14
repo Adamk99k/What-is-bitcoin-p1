@@ -230,6 +230,7 @@ footer h1 {
     border: 5px solid green;
 }
 
-#altcoin-text {
-    border: 5px solid blue;
+#altcoins-text {
+    font-size:x-large;
+    padding: 2%;
 }
