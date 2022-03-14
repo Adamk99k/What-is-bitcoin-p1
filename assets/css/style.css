@@ -151,6 +151,12 @@ em {
     letter-spacing: 2px;
 }
 
+#altcoin-section em {
+    font-size: x-large;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
 #right-div {
     font-size: large;
     text-align: center;
