@@ -117,6 +117,24 @@ h2 {
     position: absolute;
 }
 
+/*Contact us page cover text edit */
+
+#cover-text-two {
+    font-size: 134%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 3px;
+    width: 350px;
+    height: 250px;
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, .5);
+    bottom: 50px;
+    right: 350px;
+    position: absolute;
+}
+
 /* First sections */
 
 #section-one {
