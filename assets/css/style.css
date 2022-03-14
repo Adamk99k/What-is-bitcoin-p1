@@ -262,6 +262,13 @@ footer h1 {
 
 /* Form page */
 
+#form-section {
+    background: url('../images/Form-background.jpg');
+    height: 539px;
+    background-size: cover;
+    background-position: center;
+}
+
 
 #form-section h2 {
     font-size: 25px;
@@ -273,6 +280,7 @@ footer h1 {
 }
 
 .contact-form {
+    overflow: hidden;
     margin: 5%;
     color: white;
     background-color: rgba(61, 62, 63, 0.6);
@@ -290,6 +298,7 @@ footer h1 {
 
 .send-message {
     margin: 20px;
+    margin: 10px;
     border: 2px solid white;
     padding: 10px;
     display: block;
@@ -301,8 +310,4 @@ footer h1 {
 
 .form-center {
     margin-left: 2%;
-}
-
-#contact-footer {
-    border: 5px solid white;
 }
