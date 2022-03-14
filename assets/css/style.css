@@ -289,11 +289,9 @@ footer h1 {
 }
 
 .text-form {
-    border: 2px solid white;
+    border: 5px solid white;
     margin: 10px;
     width: 89%;
-    color: #fff;
-    background-color: transparent;
 }
 
 .send-message {
