@@ -224,3 +224,12 @@ footer h1 {
     letter-spacing: 10px;
     text-decoration: none;
 }
+
+#altcoin-section {
+    margin: 2%;
+    border: 5px solid green;
+}
+
+#altcoin-text {
+    border: 5px solid blue;
+}
