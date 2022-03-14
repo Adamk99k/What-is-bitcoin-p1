@@ -264,7 +264,7 @@ footer h1 {
 
 #form-section {
     background: url('../images/Form-background.jpg');
-    height: 539px;
+    height: 428px;
     background-size: cover;
     background-position: center;
 }
@@ -280,8 +280,8 @@ footer h1 {
 }
 
 .contact-form {
+    margin: 3%;
     overflow: hidden;
-    margin: 5%;
     color: white;
     background-color: rgba(61, 62, 63, 0.6);
     max-width: 400px;
