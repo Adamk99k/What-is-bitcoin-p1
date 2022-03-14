@@ -302,3 +302,7 @@ footer h1 {
 .form-center {
     margin-left: 2%;
 }
+
+#contact-footer {
+    border: 5px solid white;
+}
