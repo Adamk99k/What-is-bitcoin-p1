@@ -154,6 +154,7 @@ h2 {
 
 #left-div {
     font-size: larger;
+    padding: 1%;
 }
 
 #left-div h1 {
@@ -308,4 +309,32 @@ footer h1 {
 
 .form-center {
     margin-left: 2%;
+}
+
+/*Media queries*/
+
+/*larger screens moving to medium size from 1976px down*/
+@media screen and (Max-width: 1976px) {
+    #section-one {
+        width: 94%;
+        height: 1650px;
+        border: 5px solid #fff;
+    }
+
+    #section-two {
+        width: 94%;
+        border: 5px solid #fff;
+    }
+
+
+    #left-div h1 {
+        font-size: 80px;
+
+    }
+
+    #left-div p {
+        text-align: center;
+        font-size: larger;
+    }
+
 }
