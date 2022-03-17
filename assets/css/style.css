@@ -418,16 +418,21 @@ footer h1 {
 
 @media screen and (Max-width: 780px) {
 
+    #hero-image {
+        width: 100%;
+    }
+
     #logo {
         width: 100%;
-        text-align: center;
+        float: left;
+        margin-left: 7%;
         clear: both;
     }
 
     #menu {
         clear: both;
         float: left;
-        margin-left: 240px;
+        margin-left: 7%;
     }
 
     #cover-text {
