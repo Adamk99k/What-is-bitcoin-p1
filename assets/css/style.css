@@ -354,7 +354,8 @@ footer h1 {
 
 }
 
-/*For center quotes as the text gets a bit to big at this point*/
+/*For center quotes as the text gets a bit to big at this point chnagesd width to 100% */
+
 @media screen and (Max-width: 1657px) {
     #section-three {
         height: fit-content;
@@ -367,4 +368,24 @@ footer h1 {
         height: 150px;
     }
 
+}
+
+/*Remove border and chnage h2 sizes for what is bitcoin section*/
+
+@media screen and (Max-width: 1461px) {
+    #section-one {
+        border: none;
+    }
+
+    #section-two h1 {
+        font-size: 30px;
+
+    }
+
+}
+
+/* For smaller then 1000px screens (Small tablet)*/
+
+@media screen and (Max-width: 1000px) {
+    
 }
