@@ -439,8 +439,17 @@ footer h1 {
         left: 0;
     }
 
+    #section-three h2 {
+        font-size: 17px;
+    }
+
+
     #section-two {
         width: 90%;
+    }
+
+    #cover-text-two {
+        left: 0;
     }
 
 }
