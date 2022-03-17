@@ -430,4 +430,12 @@ footer h1 {
         margin-left: 240px;
     }
 
+    #cover-text {
+        left: 0;
+    }
+
+    #section-two {
+        width: 90%;
+    }
+
 }
