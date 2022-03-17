@@ -391,6 +391,7 @@ footer h1 {
 /* For smaller then 1000px screens (Small tablet)*/
 
 @media screen and (Max-width: 1000px) {
+    
     #left-div, #right-div {
         margin: 4%;
     }
@@ -410,4 +411,23 @@ footer h1 {
     #left-div p {
         font-size: 19px;
     }
+}
+
+
+/*For phone screens 780px wide and down*/
+
+@media screen and (Max-width: 780px) {
+
+    #logo {
+        width: 100%;
+        text-align: center;
+        clear: both;
+    }
+
+    #menu {
+        clear: both;
+        float: left;
+        margin-left: 240px;
+    }
+
 }
