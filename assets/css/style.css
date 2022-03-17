@@ -311,7 +311,11 @@ footer h1 {
     margin-left: 2%;
 }
 
-/*Media queries*/
+
+
+
+
+                                        /*Media queries*/
 
 /*larger screens moving to medium size from 1976px down*/
 @media screen and (Max-width: 1976px) {
@@ -370,7 +374,7 @@ footer h1 {
 
 }
 
-/*Remove border and chnage h2 sizes for what is bitcoin section*/
+/*Remove border and change h2 sizes for what is bitcoin section*/
 
 @media screen and (Max-width: 1461px) {
     #section-one {
@@ -387,5 +391,23 @@ footer h1 {
 /* For smaller then 1000px screens (Small tablet)*/
 
 @media screen and (Max-width: 1000px) {
+    #left-div, #right-div {
+        margin: 4%;
+    }
+    #section-one{
+        width: 100%;
+        margin: 0%;
+        float: left;
+    }
+    #section-two {
+        height: fit-content;
+    }
     
+    #hero-image {
+        width: 100%;
+    }
+
+    #left-div p {
+        font-size: 19px;
+    }
 }
