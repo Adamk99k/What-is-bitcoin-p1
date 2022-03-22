@@ -163,6 +163,10 @@ h2 {
     font-weight: 900;
 }
 
+li {
+    margin: 3%;
+}
+
 em {
     color:  black;
     font-size: 20px;
