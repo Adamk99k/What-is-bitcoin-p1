@@ -242,8 +242,7 @@ footer ul {
     color: #fff;
 }
 
-footer h1 {
-    left: 50%;
+footer h1,h2 {
     text-align: center;
 }
 
