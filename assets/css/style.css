@@ -502,4 +502,36 @@ footer h1,h2 {
         letter-spacing: 1px;
         text-align: left;
     }
+
+    #section-two {
+        width: 100%;
+        margin: 0;
+    }
+
+    #section-two h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #right-div ul {
+        font-size: 17px;
+        letter-spacing: 1px;
+        text-align: left;
+    }
+
+    #right-div li {
+        margin-bottom: 10%;
+    }
+
+    #section-three h2 {
+        font-size: 14px;
+        padding: 1%;
+        position: center;
+    }
+
+    #section-three div {
+        text-align: center;
+        padding: 0;
+    }
+
 }
