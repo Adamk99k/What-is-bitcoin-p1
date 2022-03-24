@@ -243,6 +243,7 @@ footer ul {
 }
 
 footer h1,h2 {
+    left: 50%;
     text-align: center;
 }
 
@@ -294,6 +295,7 @@ footer h1,h2 {
 
 .text-form {
     border: 5px solid white;
+    color: black;
     margin: 10px;
     width: 89%;
 }
