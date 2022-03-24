@@ -559,5 +559,21 @@ footer h1,h2 {
 
     /*For altcoins page 320px and down / same media rule*/
 
-    
+    #altcoin-section {
+        border: none;
+    }
+
+    #altcoin-section h2 {
+        font-size: 30px
+    }
+
+    #altcoins-text {
+        font-size: 20px;
+        padding: 3%;
+        
+    }
+
+    #altcoins-text em {
+        font-size: 20px;
+    }
 }
