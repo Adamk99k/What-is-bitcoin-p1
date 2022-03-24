@@ -541,13 +541,4 @@ footer h1,h2 {
         text-align: center;
         padding: 0;
     }
-
-    footer h2 {
-        font-size: 20px;
-    }
-
-    #social-links li {
-        font-size: 9px;
-    }
-
 }
