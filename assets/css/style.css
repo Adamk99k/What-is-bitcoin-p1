@@ -491,6 +491,7 @@ footer h1,h2 {
 
     #left-div h2 {
         margin-bottom: 5%;
+        text-align: left;
     }
 
     #left-div em {
@@ -510,7 +511,7 @@ footer h1,h2 {
 
     #section-two h2 {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     #right-div ul {
@@ -523,6 +524,13 @@ footer h1,h2 {
         margin-bottom: 10%;
     }
 
+    #right-div h2 {
+        margin-top: 0;
+        margin-bottom: 10%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
     #section-three h2 {
         font-size: 14px;
         padding: 1%;
@@ -532,6 +540,14 @@ footer h1,h2 {
     #section-three div {
         text-align: center;
         padding: 0;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+
+    #social-links li {
+        font-size: 9px;
     }
 
 }
