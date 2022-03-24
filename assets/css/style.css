@@ -457,3 +457,49 @@ footer h1,h2 {
     }
 
 }
+
+
+@media screen and (Max-width: 320px) {
+    #logo {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        font-size:30px;
+    }
+    #menu {
+        width: 100%;
+        margin: 0;
+        font-size: 15px;
+    }
+    #hero-image {
+        height: 270px;
+        background-size: cover;
+    }
+
+    #cover-text {
+        width: 90%;
+        top: 50px;
+        height: fit-content;
+        font-size: 15px;
+        text-align: center;
+        padding: 5%
+    }
+
+    #hero-outer {
+        height: fit-content;
+    }
+
+    #left-div h2 {
+        margin-bottom: 5%;
+    }
+
+    #left-div em {
+        font-size: 17px;
+    }
+
+    #left-div p {
+        font-size: 17px;
+        letter-spacing: 1px;
+        text-align: left;
+    }
+}
