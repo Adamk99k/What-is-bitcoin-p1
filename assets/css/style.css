@@ -556,4 +556,8 @@ footer h1,h2 {
     #social-links {
         height: fit-content;
     }
+
+    /*For altcoins page 320px and down / same media rule*/
+
+    
 }
