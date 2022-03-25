@@ -576,4 +576,20 @@ footer h1,h2 {
     #altcoins-text em {
         font-size: 20px;
     }
+
+     /*contact.html page for media screens 320px and under*/
+
+     #form-section h2 {
+        font-size: 20px;
+    }
+
+    #form-section {
+        height: fit-content;
+    }
+
+    #form-section label  {
+        font-size: 20px;
+        float: left;
+        font-weight: 600;
+    }
 }
