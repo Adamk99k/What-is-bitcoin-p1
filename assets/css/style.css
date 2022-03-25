@@ -7,6 +7,7 @@
     color: aliceblue;
 }
 
+/*The full website background color is set here*/
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -124,7 +125,7 @@ on the hero image for 10s*/
 }
 
 /*This targets the second section on home page, "Facts about bitcoin" and gives 
-some sizing so the child divs are within these size rules*/
+some sizing so the child divs are within these size sections*/
 #section-two {
     margin: 50px;
     width: 38%;
@@ -258,7 +259,7 @@ footer h1,h2 {
     background-position: center;
 }
 
-/*Makes the hero image text on contact page smaller then other 
+/*Makes the hero image text on contact.html page smaller then other 
 pages so that the text sits more flush*/
 #contact-page-text {
     font-size: 18px;
