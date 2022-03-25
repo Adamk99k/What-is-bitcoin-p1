@@ -428,9 +428,9 @@ footer h1,h2 {
         font-size: 17px;
     }
 
-
     #section-two {
-        width: 90%;
+        width: 100%;
+        margin: 0;
     }
 
     #cover-text-two {
