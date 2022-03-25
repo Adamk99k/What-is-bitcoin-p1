@@ -465,10 +465,12 @@ footer h1,h2 {
         width: 100%;
         text-align: center;
         font-size:30px;
+        height: 40px;
     }
     #menu {
         width: 100%;
         margin: 0;
+        margin-bottom: -10px;
         font-size: 15px;
     }
     #hero-image {
