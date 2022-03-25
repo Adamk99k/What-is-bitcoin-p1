@@ -14,7 +14,6 @@ body {
 }
 
 /* Headings and Logo */
-
 h1,
 h2 {
     font-family: Oswald, sans-serif;
@@ -23,14 +22,14 @@ h2 {
     color: rgb(231, 206, 206);
 }
 
+/* The logo is the header text on each page */
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 2%;
 }
 
-/* navigation links */
-
+/* Menu id is for the nav bar */
 #menu {
     font-size: 120%;
     letter-spacing: 3px;
@@ -61,8 +60,7 @@ h2 {
     border-bottom: 1px solid #fff;
 }
 
-/*Hero image for main page (Under header) */
-
+/*This hero-outer targets the hero image on each page*/
 #hero-outer {
     height: 539px;
     width: 100%;
@@ -88,7 +86,8 @@ h2 {
     animation-fill-mode: forwards;
 }
 
-/*zoom for image*/
+/*zoom for image, When user's load webpage a zoom effect takes place
+on the hero image for 10s*/
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -107,24 +106,6 @@ h2 {
     letter-spacing: 3px;
     width: 330px;
     height: 200px;
-    padding-top: 40px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-bottom: 40px;
-    background-color: rgba(0, 0, 0, .5);
-    bottom: 50px;
-    right: 350px;
-    position: absolute;
-}
-
-/*Contact us page cover text edit */
-
-#cover-text-two {
-    font-size: 134%;
-    font-family: Oswald, sans-serif;
-    letter-spacing: 3px;
-    width: 350px;
-    height: 250px;
     padding-top: 40px;
     padding-left: 35px;
     padding-right: 35px;
@@ -422,21 +403,21 @@ footer h1,h2 {
 
 @media screen and (Max-width: 780px) {
 
-    #hero-image {
-        width: 100%;
-    }
-
+    
     #logo {
-        width: 100%;
-        float: left;
-        margin-left: 7%;
-        clear: both;
+        width: 90%;
+        text-align: center;
     }
 
     #menu {
-        clear: both;
-        float: left;
-        margin-left: 7%;
+        width: 100%;
+        display: inline-block;
+    }
+
+    #menu li {
+        margin: 0;
+        width: 33%;
+        text-align: center;
     }
 
     #cover-text {
