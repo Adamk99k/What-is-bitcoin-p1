@@ -255,6 +255,11 @@ footer h1,h2 {
 }
 
 
+#contact-page-text {
+    font-size: 18px;
+}
+
+
 #form-section h2 {
     font-size: 25px;
     margin: 4%;
@@ -440,7 +445,7 @@ footer h1,h2 {
 }
 
 
-@media screen and (Max-width: 405px) {
+@media screen and (Max-width: 472px) {
     #logo {
         margin: 0;
         width: 100%;
@@ -467,6 +472,10 @@ footer h1,h2 {
         font-size: 15px;
         text-align: center;
         padding: 5%
+    }
+    
+    #contact-page-text {
+        font-size: 15px;
     }
 
     #hero-outer {
@@ -541,7 +550,7 @@ footer h1,h2 {
         height: fit-content;
     }
 
-    /*For altcoins page 320px and down / same media rule*/
+    /*For altcoins page 472px and down / same media rule*/
 
     #altcoin-section {
         border: none;
@@ -561,7 +570,7 @@ footer h1,h2 {
         font-size: 20px;
     }
 
-     /*contact.html page for media screens 320px and under*/
+     /*contact.html page for media screens 472px and under*/
 
      #form-section h2 {
         font-size: 20px;
