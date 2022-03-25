@@ -13,9 +13,9 @@ body {
     background-color: #9e00c5;
 }
 
-/* Headings and Logo */
-h1,
-h2 {
+/* Styling for both <h1> and <h2> tags
+on all pages */
+h1,h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -29,16 +29,11 @@ h2 {
     margin-left: 2%;
 }
 
-/* Menu id is for the nav bar */
+/* Menu id is for the nav bar (Home / Altcoins / contact) */
 #menu {
     font-size: 120%;
     letter-spacing: 3px;
-}
-
-#menu,
-#logo {
     line-height: 75px;
-
 }
 
 #menu li {
@@ -52,6 +47,7 @@ h2 {
     color: inherit;
 }
 
+/*Hover class adds a line under the current page on the nav bar*/
 #menu a:hover {
     border-bottom: 1px solid #fff;
 }
@@ -75,6 +71,7 @@ h2 {
     background-color: transparent;
 }
 
+/*This is the main image used on all pages*/
 #hero-image {
     height: 539px;
     width: 100%;
@@ -100,6 +97,7 @@ on the hero image for 10s*/
     }
 }
 
+/*Targets the text within the hero image*/
 #cover-text {
     font-size: 124%;
     font-family: Oswald, sans-serif;
@@ -116,8 +114,7 @@ on the hero image for 10s*/
     position: absolute;
 }
 
-/* First sections */
-
+/* First section on the home page. "Bitcoin what is it?" */
 #section-one {
     margin: 50px;
     float: left;
@@ -126,6 +123,8 @@ on the hero image for 10s*/
     overflow: auto;
 }
 
+/*This targets the second section on home page, "Facts about bitcoin" and gives 
+some sizing so the child divs are within these size rules*/
 #section-two {
     margin: 50px;
     width: 38%;
@@ -133,6 +132,7 @@ on the hero image for 10s*/
     float: right;
 }
 
+/*These are the contents within each section on home page*/
 #left-div {
     font-size: larger;
     padding: 1%;
@@ -172,8 +172,10 @@ em {
     font-weight: 900;
 }
 
-/*Section three for quotes */
+/*Section three for Quotes */
 
+/*Adds a image to the quote section on the home page "Bitcoin page" so that
+the quotes have a nice feel and look*/
 #section-three {
     background-image: url('../images/quotes-background.png');
     float: left;
@@ -193,9 +195,8 @@ em {
     box-sizing: border-box;
 }
 
-/*     xxxxxxxxxx      Footer     xxxxxxxxxx            */
 
-
+/*Footer section for all pages*/
 footer {
     height: 150px;
     width: 100%;
@@ -207,6 +208,7 @@ footer ul {
     height: 250px;
 }
 
+/*These are tageting the social media icon links*/
 #social-links {
     text-align: center;
 }
@@ -227,6 +229,7 @@ footer h1,h2 {
     text-align: center;
 }
 
+/*Makes the click me text more unique*/
 #whitepaper-link {
     color: aqua;
     font-weight: 900;
@@ -234,6 +237,7 @@ footer h1,h2 {
     text-decoration: none;
 }
 
+/*Altcoin page */
 #altcoin-section {
     margin: 2%;
     border: 5px dotted white;
@@ -245,8 +249,8 @@ footer h1,h2 {
     padding-top: 0;
 }
 
-/* Form page */
 
+/* Form page section*/
 #form-section {
     background: url('../images/Form-background.jpg');
     height: 445px;
@@ -254,7 +258,8 @@ footer h1,h2 {
     background-position: center;
 }
 
-
+/*Makes the hero image text on contact page smaller then other 
+pages so that the text sits more flush*/
 #contact-page-text {
     font-size: 18px;
 }
@@ -285,6 +290,8 @@ footer h1,h2 {
     width: 89%;
 }
 
+
+/*Targets the submit buttion on contact.html page*/
 .send-message {
     margin: 20px;
     margin: 10px;
@@ -303,11 +310,9 @@ footer h1,h2 {
 
 
 
+/*Media queries*/
 
-
-                                        /*Media queries*/
-
-/*larger screens moving to medium size from 1976px down*/
+/*larger screens from 1976px down to 1657px*/
 @media screen and (Max-width: 1976px) {
     #section-one {
         width: 94%;
@@ -348,8 +353,7 @@ footer h1,h2 {
 
 }
 
-/*For center quotes as the text gets a bit to big at this point chnagesd width to 100% */
-
+/*For center quotes as the text gets a bit to big at this point changed width to 100% */
 @media screen and (Max-width: 1657px) {
     #section-three {
         height: fit-content;
@@ -364,8 +368,7 @@ footer h1,h2 {
 
 }
 
-/*Remove border and change h2 sizes for what is bitcoin section*/
-
+/*Remove border and change h1 sizes for bitcoin section*/
 @media screen and (Max-width: 1461px) {
     #section-one {
         border: none;
@@ -377,8 +380,6 @@ footer h1,h2 {
     }
 
 }
-
-/* For smaller then 1000px screens (Small tablet)*/
 
 @media screen and (Max-width: 1000px) {
     
@@ -404,7 +405,7 @@ footer h1,h2 {
 }
 
 
-/*For phone screens 780px wide and down*/
+/*For media screens 780px wide and down (iPad mini size)*/
 
 @media screen and (Max-width: 780px) {
 
@@ -444,7 +445,7 @@ footer h1,h2 {
 
 }
 
-
+/*For media screens from 472px down to 320 px iPhone 5 /SE sizes*/
 @media screen and (Max-width: 472px) {
     #logo {
         margin: 0;
@@ -535,6 +536,7 @@ footer h1,h2 {
         padding: 0;
     }
 
+    /*Footer and social media links sizes for iPhone 5 to 472px*/
     #social-links i {
         padding: 0;
         margin-bottom: 42px;
@@ -550,8 +552,7 @@ footer h1,h2 {
         height: fit-content;
     }
 
-    /*For altcoins page 472px and down / same media rule*/
-
+    /*For altcoins page media screens styling (iPhone 5)*/
     #altcoin-section {
         border: none;
     }
@@ -570,8 +571,7 @@ footer h1,h2 {
         font-size: 20px;
     }
 
-     /*contact.html page for media screens 472px and under*/
-
+     /*contact.html page for media screens 472px and down to iPhone 5 / SE at 320px*/
      #form-section h2 {
         font-size: 20px;
     }
