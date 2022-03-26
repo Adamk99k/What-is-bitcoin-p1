@@ -47,5 +47,5 @@ seconds Zoom effect when the website is loeaded.
 
 * Form : The contact page has a form section where the user can ask any type of question in regards to all things Crypto.
 
-## RESPONSIVE (UX)
-* The whole website has had responsive css media queries added that allow users to view it on all device screens such as Large desktop's and down to a small iPhone 5 / SE sized screen.
+## RESPONSIVE DESIGN
+* The whole website has responsive css media queries added that allow users to view it on all device screens such as Large desktop's down to a small iPhone 5 / SE sized screen. This is demonstrated with the image above this features section.
