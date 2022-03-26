@@ -15,4 +15,7 @@ The contact page was made for the user who has more questions and things they wa
 #
 The target audience for my website is all types of people from the younger generation to the older that want to know what bitcoin is, the idle user would be someone who has never learned about bitcoin and who is a complete newbie to this space as these users will gain the most value from my website.
 
+#
 
+
+![Website on different screens](assets/images/readme.img/amiresponsive.png)
