@@ -17,5 +17,35 @@ The target audience for my website is all types of people from the younger gener
 
 #
 
+![image](assets/images/readme.img/amiresponsive.png)
 
-![Website on different screens](assets/images/readme.img/amiresponsive.png)
+
+
+# Features
+
+## ALL PAGES
+
+* Title : Each page shares the same level 1 title. This is Huge Bold text that tells the user exacly what the page is about.
+
+* Navagation bar : All three pages have the same navagation bar with three links refering to each page, Home / Altcoins / contact.
+
+* Hero image : All pages have the same Hero Image that has a 10 
+seconds Zoom effect when the website is loeaded.
+
+* Footer section : Each pages footer section has four links to social media.
+
+* Hero image text :  There is a text section on all hero images that has either a motavatinal quote or infomation.
+ 
+
+## HOME PAGE
+
+* Clickable link : On the home page there is a question that asks the user if they want to read the original bitcoin whitpaper, if they do theres a "Click me ..." link that takes you out of the website to the whitepaper.
+
+* Quote section :  The Home page's quote section lists five quotes about bitcoin from some of the biggest CEOs in the world.
+
+## CONTACT PAGE
+
+* Form : The contact page has a form section where the user can ask any type of question in regards to all things Crypto.
+
+## RESPONSIVE (UX)
+* The whole website has had responsive css media queries added that allow users to view it on all device screens such as Large desktop's and down to a small iPhone 5 / SE sized screen.
