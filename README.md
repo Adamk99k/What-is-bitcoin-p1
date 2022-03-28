@@ -61,8 +61,17 @@ seconds Zoom effect when the website is loeaded, This eye catching animation gra
 ![image](assets/images/readme.img/Altcoins-text-section.png)
 ## CONTACT PAGE
 
-* Form : The contact page has a form section where the user can ask any type of question in regards to all things Crypto. The value of this is that users who are new most deffently have questions they need answeing, So by added this feature to my site it gives the complete package feeling, Users come, Learn about bitcoin, Then Altcoins then there able to ask anything they want. This encorages the user to ask freely and make's the learning experience more lasting. For the purpose of this project the form dosnt have any action meaning filled in form's are not sent anywhere but these details once submited do display up in the URL.
+* Form : The contact page has a form section where the user can ask any type of question in regards to all things Crypto. The value of this is that users who are new most deffently have questions they need answeing, So by adding this feature to my site it gives the complete package feeling, Users come, Learn about bitcoin, Then Altcoins then there able to ask anything they want. This encorages the user to ask freely and make's the learning experience more lasting. For the purpose of this project the form dosnt have any action, meaning filled in form's are not sent anywhere but these details once submited do display up in the URL.
 ![image](assets/images/readme.img/form-page.png)
 
 ## RESPONSIVE DESIGN
 * The whole website has responsive css media queries added that allow users to view it on all device screens such as Large desktop's down to a small iPhone 5 / SE sized screen. This is demonstrated with the image above this features section.
+
+## FEATURES NOT IMPLEMENTED 
+
+* One of the ideas i couldnt inplement is on the home pages quote section i wanted to make the quotes move arround every 10 seconds and switch between other quotes untill the user hoovers over them.
+
+* I also wanted to make the naviagation bar a buttion that users have to click to relise a drop down navagation bar.
+
+* I also wanted to add a button that sticks to the page as the user scrools down that once clicked takes users back up to the navagtion bar.
+<br> <br> The resons i couldnt implemet these were i havnt yet leanrt how to do these.
