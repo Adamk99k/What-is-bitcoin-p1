@@ -17,9 +17,7 @@ The target audience for my website is all types of people from the younger gener
 
 #
 
-![image](assets/images/readme.img/)
-
-
+![image](assets/images/readme.img/am-i-responsive.png)
 
 # Features
 
@@ -38,12 +36,15 @@ seconds Zoom effect when the website is loeaded, This eye catching animation gra
 ![image](assets/images/readme.img/site-footer.png)
 #
 
-* Hero image text. <br>  There is a text section on all hero images that has either a motavatinal quote or infomation.
- 
+* Hero image text. <br>  On all three pages overlaping the hero image is a text section, Each pages text is different but correlated to what each page is about. These sections provide quick value to the user and gives them a feel for the page there about to check out. 
+![image](assets/images/readme.img/hero-image-cover-text.png)
+ #
 
 ## HOME PAGE
 
-* Clickable link : On the home page there is a question that asks the user if they want to read the original bitcoin whitpaper, if they do theres a "Click me ..." link that takes you out of the website to the whitepaper.
+* Clickable link : On the home page there is a question that asks the user if they want to read the original bitcoin whitpaper, if they do theres a "Click me ..." link that takes you out of the website to the whitepaper site. This grabs the users attention by asking them a question then gives them value by making the whitepaper avivable for them to read.
+![image](assets/images/readme.img/question-home-page.png)
+#
 
 * Quote section :  The Home page's quote section lists five quotes about bitcoin from some of the biggest CEOs in the world.
 
