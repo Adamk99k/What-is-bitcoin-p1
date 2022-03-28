@@ -42,11 +42,17 @@ seconds Zoom effect when the website is loeaded, This eye catching animation gra
 
 ## HOME PAGE
 
-* Clickable link : On the home page there is a question that asks the user if they want to read the original bitcoin whitpaper, if they do theres a "Click me ..." link that takes you out of the website to the whitepaper site. This grabs the users attention by asking them a question then gives them value by making the whitepaper avivable for them to read.
+* Clickable link. <br> On the home page there is a question that asks the user if they want to read the original bitcoin whitpaper, if they do theres a "Click me ..." link that takes you out of the website to the whitepaper site. This grabs the users attention by asking them a question then gives them value by making the whitepaper avivable for them to read.
 ![image](assets/images/readme.img/question-home-page.png)
 #
 
-* Quote section :  The Home page's quote section lists five quotes about bitcoin from some of the biggest CEOs in the world.
+* Quote section. <br> The Home page's quote section lists five quotes about bitcoin from some of the biggest CEOs and co Ceo's in the world. This section is intresting to the user as familer influential names are taking positvly about the subject there wanting to learn more about, Bitcoin.
+![image](assets/images/readme.img/quote-section.png)
+#
+
+* Bitcoin, What is it?, Text section. <br> The text that is within this section is the fundermental basics of Bitcoin, what it is and how it works. The aim of this section is to educate the user on Bitcoin without over complecating things as bitcoin for newbie's can be confusing. This section also becomes scrollible on extra large desktop screens.
+* Facts and Points about Bitcoin, Text section. <br>The aim of this section is to give intresting facts and points about Bitcoin that grab the users attention and fill in some of the questions they may have after reading the first Bitcoin section,such as who Satoshi nakamoto is. There also is a short story of a pizza worth 10,000 BTC, This is a attention grabing story that keeps the user intrested.
+![image](assets/images/readme.img/home-page-text-sections.png)
 
 ## CONTACT PAGE
 
@@ -54,6 +60,3 @@ seconds Zoom effect when the website is loeaded, This eye catching animation gra
 
 ## RESPONSIVE DESIGN
 * The whole website has responsive css media queries added that allow users to view it on all device screens such as Large desktop's down to a small iPhone 5 / SE sized screen. This is demonstrated with the image above this features section.
-
-## INFOMATION SECTIONS
-* What is Bitcoin? section : This section's text was a bunch of infomation i studied a wrote down. 
