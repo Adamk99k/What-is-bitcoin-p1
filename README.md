@@ -95,3 +95,15 @@ Warning : Section id Hero-outer on index.html page lacks heading: To solve this 
 #### CSS [CSS Validation](https://jigsaw.w3.org/css-validator/) - When running this css validator the first time there was a few errors. <br>
 * Issue One: <br> CSS ISSUES PLACEHOLDER TEXT ...
 
+TESTING BROWSERS , 
+TESTING TO MAKE SURE SITE WORKS ON ALL SCREEN SIZES,
+LIGHTHOUSE
+
+UNFIXED BUGS
+
+-
+DEPLOYMENT
+
+-
+CREDITS
+
