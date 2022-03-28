@@ -20,21 +20,24 @@ The target audience for my website is all types of people from the younger gener
 ![image](assets/images/readme.img/amiresponsive.png)
 
 
-
+#
 # Features
-
 ## ALL PAGES
 
-* Title : Each page shares the same level 1 title. This is Huge Bold text that tells the user exacly what the page is about.
+* Title.  <br> Each page shares the same level 1 title. This is Huge Bold text that tells the user exacly what the page is about, this provides clairity for the user.
 
-* Navagation bar : All three pages have the same navagation bar with three links refering to each page, Home / Altcoins / contact.
+* Navagation bar.  <br> All three pages have the same navagation bar with three links refering to each page, Home / Altcoins and contact, this allows the user to have easy navigation throghout the website without having to use the back button.
 
-* Hero image : All pages have the same Hero Image that has a 10 
-seconds Zoom effect when the website is loeaded.
 
-* Footer section : Each pages footer section has four links to social media.
+* Hero image.  <br>All three pages have the same Hero Image that has a 10 
+seconds Zoom effect when the website is loeaded, This eye catching animation grabs the attention of the user.
+![image](assets/images/readme.img/hero-image-readme.png)
 
-* Hero image text :  There is a text section on all hero images that has either a motavatinal quote or infomation.
+#
+
+* Footer section. <br> Each page's footer section has four links to diffrent social media's, These are large icons so that the user will acknowledge them, for the purpose of this project the links take you to the the landing page for each social media used.
+
+* Hero image text. <br>  There is a text section on all hero images that has either a motavatinal quote or infomation.
  
 
 ## HOME PAGE
@@ -49,3 +52,6 @@ seconds Zoom effect when the website is loeaded.
 
 ## RESPONSIVE DESIGN
 * The whole website has responsive css media queries added that allow users to view it on all device screens such as Large desktop's down to a small iPhone 5 / SE sized screen. This is demonstrated with the image above this features section.
+
+## INFOMATION SECTIONS
+* What is Bitcoin? section : This section's text was a bunch of infomation i studied a wrote down. 
