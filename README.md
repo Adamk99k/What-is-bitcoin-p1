@@ -17,12 +17,11 @@ The target audience for my website is all types of people from the younger gener
 
 #
 
-![image](assets/images/readme.img/amiresponsive.png)
+![image](assets/images/readme.img/)
 
 
-#
+
 # Features
-## ALL PAGES
 
 * Title.  <br> Each page shares the same level 1 title. This is Huge Bold text that tells the user exacly what the page is about, this provides clairity for the user.
 
@@ -36,6 +35,8 @@ seconds Zoom effect when the website is loeaded, This eye catching animation gra
 #
 
 * Footer section. <br> Each page's footer section has four links to diffrent social media's, These are large icons so that the user will acknowledge them, for the purpose of this project the links take you to the the landing page for each social media used.
+![image](assets/images/readme.img/site-footer.png)
+#
 
 * Hero image text. <br>  There is a text section on all hero images that has either a motavatinal quote or infomation.
  
