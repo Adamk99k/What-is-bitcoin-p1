@@ -74,4 +74,24 @@ seconds Zoom effect when the website is loeaded, This eye catching animation gra
 * I also wanted to make the naviagation bar a buttion that users have to click to relise a drop down navagation bar.
 
 * I also wanted to add a button that sticks to the page as the user scrools down that once clicked takes users back up to the navagtion bar.
-<br> <br> The resons i couldnt implemet these were i havnt yet leanrt how to do these.
+<br> <br> The resons i couldnt implemet these were i havnt yet leanrt how to do so.
+
+#
+# TESTING MY SITE 
+After completing my website i had to test and make sure my code were up to standard and no errors where hidden inside, To do this i first checked Code Validator's for both HTML and CSS then once i checked the validator on each page and fixed the issues i then went on to check lighthouse for a genral report on my site.
+#
+## VALIDATOR CODE TESTING.
+
+#### HTML [W3C validator](https://validator.w3.org/) - When running this for the first time there was a few warnings and errors. Here they are with how i solved them. <br> 
+* Issue One: <br>
+On the Home page the "Facts and point about bitcoin" section had a un closed < ul > tag, To solve this i added a closing </ ul> tag to line 188 on Index.html.<br><br>
+* Issue Two : <br>
+Warning: Consider useing h1 elements for top level headings only:   All sections on all pages had a < h1 > heading which there should be only one for the main header heading so to solve this issue i changed all h1 tags on all pages to h2 tags leaving just one h1 on each page for the main header logo text.<br><br>
+* Issue Three: <br>
+Error: end tag </ nav> seen on line 39 but there was no open < nav> tag. To solve this issue i added a opening < Nav > tag on line 27 on index.html.<br><br>
+* issue Four: <br>
+Warning : Section id Hero-outer on index.html page lacks heading: To solve this issue i changed the < p > tag to a < h4 >tag, I then did this on all pages , index.html, Altcoins.html and contact.html as this was a warning that came up for all pages.<br><br>
+* issue Five: <br>  For the < li> elements within the home pages "Facts and points about bitcoin" section i used < br> tags to give line brakes under each < li> element, This wasnt the coorect way to do so and it's not good practice to use < br> tags to space < li> elements. To solve this issue i targeted the < li> elemetns useing css and gave margin to them, This solved the error that was flaged on the httml validator.
+#### CSS [CSS Validation](https://jigsaw.w3.org/css-validator/) - When running this css validator the first time there was a few errors. <br>
+* Issue One: <br> CSS ISSUES PLACEHOLDER TEXT ...
+
