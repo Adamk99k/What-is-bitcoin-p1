@@ -61,7 +61,8 @@ seconds Zoom effect when the website is loeaded, This eye catching animation gra
 ![image](assets/images/readme.img/Altcoins-text-section.png)
 ## CONTACT PAGE
 
-* Form : The contact page has a form section where the user can ask any type of question in regards to all things Crypto.
+* Form : The contact page has a form section where the user can ask any type of question in regards to all things Crypto. The value of this is that users who are new most deffently have questions they need answeing, So by added this feature to my site it gives the complete package feeling, Users come, Learn about bitcoin, Then Altcoins then there able to ask anything they want. This encorages the user to ask freely and make's the learning experience more lasting. For the purpose of this project the form dosnt have any action meaning filled in form's are not sent anywhere but these details once submited do display up in the URL.
+![image](assets/images/readme.img/form-page.png)
 
 ## RESPONSIVE DESIGN
 * The whole website has responsive css media queries added that allow users to view it on all device screens such as Large desktop's down to a small iPhone 5 / SE sized screen. This is demonstrated with the image above this features section.
