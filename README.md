@@ -55,6 +55,10 @@ seconds Zoom effect when the website is loeaded, This eye catching animation gra
 * Facts and Points about Bitcoin, Text section. <br>The aim of this section is to give intresting facts and points about Bitcoin that grab the users attention and fill in some of the questions they may have after reading the first Bitcoin section,such as who Satoshi nakamoto is. There also is a short story of a pizza worth 10,000 BTC, This is a attention grabing story that keeps the user intrested.
 ![image](assets/images/readme.img/home-page-text-sections.png)
 
+## ALTCOINS PAGE
+
+* Altcoins text section. <br> The Altcoins Page is made up of just one simple text section, This sections aim is to educate the user on altcoins only providing usefull infomation such as what makes up the word "Altcoin" and not providing useless infomation such as a list of all the altcoins there are.
+![image](assets/images/readme.img/Altcoins-text-section.png)
 ## CONTACT PAGE
 
 * Form : The contact page has a form section where the user can ask any type of question in regards to all things Crypto.
