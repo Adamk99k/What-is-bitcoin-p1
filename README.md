@@ -127,7 +127,25 @@ Warning : Section id Hero-outer on index.html page lacks heading: To solve this 
 <img src="assets/images/readme.img/Lighthouse-report.png" height=700 width=500>
 
 
-# 
+# TECHNOLOGIES USED.
+## [HTML 5](https://en.wikipedia.org/wiki/HTML5)
+* Main structure language.
+## [CSS](https://en.wikipedia.org/wiki/CSS)
+* Main styling language.
+## [FONT AWESOME](https://fontawesome.com/)
+* Used to get iCons for social media links
+## [GITHUB](https://github.com/)
+* Used for hosting website and keeping work in a remote place and to deploy my site.
+## [GITPOD](https://www.gitpod.io/)
+* GitPod was used for the development of my site.
+## [TECHSINI](http://techsini.com/multi-mockup/index.php)
+* Used to crate a mock up image displaying the the site on diferent screen sizes.
+## [TINYPNG](https://tinypng.com/)
+* Used to shrink images from online down to smaller sizes making my site faster.
+## [BALSAMIQ](https://balsamiq.com/)
+* Used for wireframes of my site before i started on it.
+
+-----
 
 # UNFIXED BUGS
 
