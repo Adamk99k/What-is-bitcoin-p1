@@ -145,10 +145,19 @@ Warning : Section id Hero-outer on index.html page lacks heading: To solve this 
 ## [BALSAMIQ](https://balsamiq.com/)
 * Used for wireframes of my site before i started on it.
 
------
-
-# UNFIXED BUGS
-
+#
 # DEPLOYMENT
 
+## Before the website was deployed,
+I had to use a tempoeary site ( Http.server ) to see the live changes while coding, To do this i used the ( Python3 -m http.server ) command in GitPod and that allowed me to see a live preview of my site while coding.
+
+## The project was deployed on GitHub Pages. 
+I used Gitpod as a development environment where I then commited all changes to github, I used (Git commit -m "" ) then (Git push)  command in Gitpod to save chnages to GitHub.
+<br>
+
+## Once my site was ready to deploy online i had to: <br>
+Log in to GitHub and click on repository to deploy (What-is-bitcoin-p1)
+select Settings and find GitHub Pages section at the very bottom of the page
+from source select none and then change the branch from "none" to "main" then once that was done i click save and the site is deployed after a refresh of the page.
+#
 # CREDITS
