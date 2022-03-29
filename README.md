@@ -161,6 +161,8 @@ I used Gitpod as a development environment where I then commited all changes to 
 Log in to GitHub and click on repository to deploy (What-is-bitcoin-p1)
 select Settings and find GitHub Pages section at the very bottom of the page
 from source select none and then change the branch from "none" to "main" then once that was done i click save and the site is deployed after a refresh of the page.
+<br><br>
+View my deployed site here : [What is Bitcoin?](https://adamk99k.github.io/What-is-bitcoin-p1/)
 #
 # CREDITS
 
