@@ -94,6 +94,7 @@ Warning : Section id Hero-outer on index.html page lacks heading: To solve this 
 * issue Five: <br>  For the < li> elements within the home pages "Facts and points about bitcoin" section i used < br> tags to give line brakes under each < li> element, This wasnt the coorect way to do so and it's not good practice to use < br> tags to space < li> elements. To solve this issue i targeted the < li> elemetns useing css and gave margin to them, This solved the error that was flaged on the httml validator.
 #### CSS [CSS Validation](https://jigsaw.w3.org/css-validator/) - When running the css validator for the first time there was only one error. <br>
 * Error: <br> There was a useless and not effective piece of code in my css, I had a ( position: center; ) rule on line 532 style.css. To solve this i simplely removed the css rule.
+![image](assets/images/readme.img/css-code.png)
 #
 ## TESTING ON BROWESERS AND SCREEN SIZES.
 
@@ -102,6 +103,7 @@ Warning : Section id Hero-outer on index.html page lacks heading: To solve this 
 * [Google Chrome](https://www.google.co.uk/chrome/)
 <br>* Browser test :  No issues were found, The site loaded first time as it should.
  <br>* Screen size test :   No issues were found when useing Chromes (   Inspect element ) feature to test diffrent sized screens. The Css media queries work as they should. 
+ ![image](assets/images/readme.img/chrome-responsive-design.png)
 
 * [FireFox](https://www.mozilla.org/en-GB/firefox/features/)
 <br>* Browser test :  No issues were found, The site loaded first time without fault.
