@@ -92,11 +92,32 @@ Error: end tag </ nav> seen on line 39 but there was no open < nav> tag. To solv
 * issue Four: <br>
 Warning : Section id Hero-outer on index.html page lacks heading: To solve this issue i changed the < p > tag to a < h4 >tag, I then did this on all pages , index.html, Altcoins.html and contact.html as this was a warning that came up for all pages.<br><br>
 * issue Five: <br>  For the < li> elements within the home pages "Facts and points about bitcoin" section i used < br> tags to give line brakes under each < li> element, This wasnt the coorect way to do so and it's not good practice to use < br> tags to space < li> elements. To solve this issue i targeted the < li> elemetns useing css and gave margin to them, This solved the error that was flaged on the httml validator.
-#### CSS [CSS Validation](https://jigsaw.w3.org/css-validator/) - When running this css validator the first time there was a few errors. <br>
-* Issue One: <br> CSS ISSUES PLACEHOLDER TEXT ...
+#### CSS [CSS Validation](https://jigsaw.w3.org/css-validator/) - When running the css validator for the first time there was only one error. <br>
+* Error: <br> There was a useless and not effective piece of code in my css, I had a ( position: center; ) rule on line 532 style.css. To solve this i simplely removed the css rule.
+#
+## TESTING ON BROWESERS AND SCREEN SIZES.
 
-TESTING BROWSERS , 
-TESTING TO MAKE SURE SITE WORKS ON ALL SCREEN SIZES,
+### Once my site was finihsed i checked my site works on diffrent web browsers and tested the sites screen size responsiveness. Here are the browsers i tested my site on.
+
+* [Google Chrome](https://www.google.co.uk/chrome/)
+<br>* Browser test :  No issues were found, The site loaded first time as it should.
+ <br>* Screen size test :   No issues were found when useing Chromes (   Inspect element ) feature to test diffrent sized screens. The Css media queries work as they should. 
+
+* [FireFox](https://www.mozilla.org/en-GB/firefox/features/)
+<br>* Browser test :  No issues were found, The site loaded first time without fault.
+ <br>* Screen size test : Useing FireFox's built in developer inspector i used the Responsive design mode and tested diffrent screens sizes out, No issues were found.
+
+* [Microsoft Edge](https://support.microsoft.com/en-gb/microsoft-edge)
+<br>* Browser test :  No issues were found, The site loaded first time.
+ <br>* Screen size test :   No issues were found when useing microsoft edges developer tool's to test screen sizes.
+
+* [Brave](https://brave.com/)
+<br>* Browser test :  No issues were found. Site loads.
+ <br>* Screen size test :   No issues were found useing developer responsive design tool.
+
+
+
+
 LIGHTHOUSE
 
 UNFIXED BUGS
