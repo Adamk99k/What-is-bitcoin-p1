@@ -98,6 +98,8 @@ Warning : Section id Hero-outer on index.html page lacks heading: To solve this 
 * Error: <br> There was a useless and not effective piece of code in my css, I had a ( position: center; ) rule on line 532 style.css. To solve this i simplely removed the css rule.
 ![image](assets/images/readme.img/css-code.png)
 #
+Now when you run both CSS and HTML validators no errors or warnings show up.
+#
 ## TESTING BROWESERS AND RESPONSIVE DESIGN.
 ### Once my site was finihsed i checked my site works on diffrent web browsers and tested the sites screen size responsiveness. Here are the browsers i tested my site on.
 
@@ -161,3 +163,24 @@ select Settings and find GitHub Pages section at the very bottom of the page
 from source select none and then change the branch from "none" to "main" then once that was done i click save and the site is deployed after a refresh of the page.
 #
 # CREDITS
+
+
+* Hero Image - This was the image used at the top of each page. This copyright free image was taken from [Pixabay.](https://pixabay.com/photos/bitcoin-cryptocurrency-of-technology-6278312/) The contact page also has a seprate image, This image that sits behind the form also came from pixabay.
+
+* Quotes about bitcoin - These quotes from my sites home page were taken from [InspirationFeed.](https://inspirationfeed.com/bitcoin-quotes/)
+
+* For some of the facts about Bitcoin i used this page [Iconic Holding](https://iconicholding.com/50-bitcoin-facts/) to get new facts i didn't know.
+#
+
+I want to thank [Code Institute](https://codeinstitute.net/) as anytime i was stuck on creating this project i would go back to the Code institute learning libeary and find infomation that could help me, I also took the idea for the hero image and quote section from Code institute.
+#
+
+I also want to thank the amazing [Slack](https://slack.com/intl/en-gb/) Comunity for helping me when i had any sort of questions.
+#
+
+My mentor @gbenga_mentor on Slack, was amazing, He helped to guide me in the right direction, He also helped me figure out what needs to be done such as ( Adding more comments in my code ) and removing useless code such as my form on the contact page having a action tag that was not needed for this project.
+
+#
+
+I want to thank my brother, Alex for helping me put the infomation for the Bitcoin and Altcoins sections into neat and newbie friendly order. He went through everything i worte and told me if it was to hard to understand, This resaulted in a more easy to follow sections as whatever was to hard to follow i removed.
+
