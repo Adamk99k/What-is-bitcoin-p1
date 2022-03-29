@@ -61,8 +61,8 @@ seconds Zoom effect when the website is loeaded, This eye catching animation gra
 ![image](assets/images/readme.img/Altcoins-text-section.png)
 ## CONTACT PAGE
 
-* Form : The contact page has a form section where the user can ask any type of question in regards to all things Crypto. The value of this is that users who are new most deffently have questions they need answeing, So by adding this feature to my site it gives the complete package feeling, Users come, Learn about bitcoin, Then Altcoins then there able to ask anything they want. This encorages the user to ask freely and make's the learning experience more lasting. For the purpose of this project the form dosnt have any action, meaning filled in form's are not sent anywhere but these details once submited do display up in the URL.
-![image](assets/images/readme.img/form-page.png)
+* Form : <br>The contact page has a form section where the user can ask any type of question in regards to all things Crypto. The value of this is that users who are new most deffently have questions they need answeing, So by adding this feature to my site it gives the complete package feeling, Users come, Learn about bitcoin, Then Altcoins then there able to ask anything they want. This encorages the user to ask freely and make's the learning experience more lasting. For the purpose of this project the form dosnt have any action, meaning filled in form's are not sent anywhere but these details once submited do display up in the URL. <br>
+<img src="assets/images/readme.img/form-page.png" width=500>
 
 ## RESPONSIVE DESIGN
 * The whole website has responsive css media queries added that allow users to view it on all device screens such as Large desktop's down to a small iPhone 5 / SE sized screen. This is demonstrated with the image above this features section.
@@ -79,7 +79,7 @@ seconds Zoom effect when the website is loeaded, This eye catching animation gra
 #
 # TESTING MY SITE 
 After completing my website i had to test and make sure my code were up to standard and no errors where hidden inside, To do this i first checked Code Validator's for both HTML and CSS then once i checked the validator on each page and fixed the issues i then went on to check lighthouse for a genral report on my site.
-#
+
 ## VALIDATOR CODE TESTING.
 
 #### HTML [W3C validator](https://validator.w3.org/) - When running this for the first time there was a few warnings and errors. Here they are with how i solved them. <br> 
@@ -91,19 +91,20 @@ Warning: Consider useing h1 elements for top level headings only:   All sections
 Error: end tag </ nav> seen on line 39 but there was no open < nav> tag. To solve this issue i added a opening < Nav > tag on line 27 on index.html.<br><br>
 * issue Four: <br>
 Warning : Section id Hero-outer on index.html page lacks heading: To solve this issue i changed the < p > tag to a < h4 >tag, I then did this on all pages , index.html, Altcoins.html and contact.html as this was a warning that came up for all pages.<br><br>
+![image](assets/images/readme.img/hero-outer-error.png)
+
 * issue Five: <br>  For the < li> elements within the home pages "Facts and points about bitcoin" section i used < br> tags to give line brakes under each < li> element, This wasnt the coorect way to do so and it's not good practice to use < br> tags to space < li> elements. To solve this issue i targeted the < li> elemetns useing css and gave margin to them, This solved the error that was flaged on the httml validator.
 #### CSS [CSS Validation](https://jigsaw.w3.org/css-validator/) - When running the css validator for the first time there was only one error. <br>
 * Error: <br> There was a useless and not effective piece of code in my css, I had a ( position: center; ) rule on line 532 style.css. To solve this i simplely removed the css rule.
 ![image](assets/images/readme.img/css-code.png)
 #
-## TESTING ON BROWESERS AND SCREEN SIZES.
-
+## TESTING BROWESERS AND RESPONSIVE DESIGN.
 ### Once my site was finihsed i checked my site works on diffrent web browsers and tested the sites screen size responsiveness. Here are the browsers i tested my site on.
 
 * [Google Chrome](https://www.google.co.uk/chrome/)
 <br>* Browser test :  No issues were found, The site loaded first time as it should.
- <br>* Screen size test :   No issues were found when useing Chromes (   Inspect element ) feature to test diffrent sized screens. The Css media queries work as they should. 
- ![image](assets/images/readme.img/chrome-responsive-design.png)
+ <br>* Screen size test :   No issues were found when useing Chromes (   Inspect element ) feature to test diffrent sized screens. The Css media queries work as they should. <br>
+ <img src="assets/images/readme.img/chrome-responsive-design.png" height=500 width=500>
 
 * [FireFox](https://www.mozilla.org/en-GB/firefox/features/)
 <br>* Browser test :  No issues were found, The site loaded first time without fault.
@@ -115,18 +116,21 @@ Warning : Section id Hero-outer on index.html page lacks heading: To solve this 
 
 * [Brave](https://brave.com/)
 <br>* Browser test :  No issues were found. Site loads.
- <br>* Screen size test :   No issues were found useing developer responsive design tool.
+<br>* Screen size test :   No issues were found useing developer responsive design tool.
+
+#
+
+## LIGHTHOUSE TESTING
+### Once i had tested my site on diffrent browsers and ensured it was responsive on all different screen sizes i generated a Lighthouse within google chrome to identify and fix common problems that effect my sites performance.
+<br>
+* The only issue it identified was that theogout my webpage the < em> tags contents were not vissible as much with the backbround i had choose, To solve this i simpley changed the color of < em> tags in css from black to #fff (White). This boosted my lighthouse score, Here is a photo of the finihsed report that i am happy with.<br>
+<img src="assets/images/readme.img/Lighthouse-report.png" height=700 width=500>
 
 
+# 
 
+# UNFIXED BUGS
 
-LIGHTHOUSE
+# DEPLOYMENT
 
-UNFIXED BUGS
-
--
-DEPLOYMENT
-
--
-CREDITS
-
+# CREDITS
