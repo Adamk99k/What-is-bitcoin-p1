@@ -84,112 +84,119 @@ seconds Zoom effect when the website is loaded, This eye catching animation grab
 
 #
 
-# TESTING MY SITE 
-After completing my website i had to test and make sure my code were up to standard and no errors where hidden inside, To do this i first checked Code Validator's for both HTML and CSS then once i checked the validator on each page and fixed the issues i then went on to check lighthouse for a genral report on my site.
+# Testing my site 
+After completing my website I had to test and make sure my code were up to standard and no errors where hidden inside. To do this I first checked Code Validator's for both HTML and CSS then once I checked the validator on each page and fixed the issues I then went on to check lighthouse for a general report on my site.
 
-## VALIDATOR CODE TESTING.
+## Validator code testing
 
-#### HTML [W3C validator](https://validator.w3.org/) - When running this for the first time there was a few warnings and errors. Here they are with how i solved them. <br> 
+#### HTML [W3C validator](https://validator.w3.org/) - When running this for the first time there was a few warnings and errors. Here they are with how I solved them. <br> 
 * Issue One: <br>
-On the Home page the "Facts and point about bitcoin" section had a un closed < ul > tag, To solve this i added a closing </ ul> tag to line 188 on Index.html.<br><br>
+On the Home page the "Facts and point about bitcoin" section had a un closed < ul > tag, To solve this I added a closing </ ul> tag to line 188 on Index.html.<br><br>
 * Issue Two : <br>
-Warning: Consider useing h1 elements for top level headings only:   All sections on all pages had a < h1 > heading which there should be only one for the main header heading so to solve this issue i changed all h1 tags on all pages to h2 tags leaving just one h1 on each page for the main header logo text.<br><br>
+Warning: Consider using h1 elements for top level headings only:   All sections on all pages had a < h1 > headings to start them of. There should be only one for the main header heading so to solve this issue I changed all h1 tags on all pages to h2 tags leaving just one h1 on each page for the main header logo text. <br><br>
 * Issue Three: <br>
-Error: end tag </ nav> seen on line 39 but there was no open < nav> tag. To solve this issue i added a opening < Nav > tag on line 27 on index.html.<br><br>
+Error: end tag </ nav> seen on line 39 but there was no open < nav> tag. To solve this issue I added an opening < Nav > tag on line 27 on index.html.<br><br>
 * issue Four: <br>
-Warning : Section id Hero-outer on index.html page lacks heading: To solve this issue i changed the < p > tag to a < h4 >tag, I then did this on all pages , index.html, Altcoins.html and contact.html as this was a warning that came up for all pages.<br><br>
+Warning : Section id Hero-outer on index.html page lacks heading: To solve this issue I changed the < p > tag to a < h4 >tag, I then did this on all pages , index.html, Altcoins.html and contact.html as this was a warning that came up for all pages.<br><br>
 ![image](assets/images/readme.img/hero-outer-error.png)
 
-* issue Five: <br>  For the < li> elements within the home pages "Facts and points about bitcoin" section i used < br> tags to give line brakes under each < li> element, This wasnt the coorect way to do so and it's not good practice to use < br> tags to space < li> elements. To solve this issue i targeted the < li> elemetns useing css and gave margin to them, This solved the error that was flaged on the httml validator.
+* issue Five: <br>  For the < li> elements within the home pages "Facts and points about bitcoin" section I used < br> tags to give line brakes under each < li> element, This wasn’t the correct way to do so and it's not good practice to use < br> tags to space < li> elements. To solve this issue I targeted the < li> elements using Css and gave margin to them, This solved the error that was flagged on the html validator.
+
 #### CSS [CSS Validation](https://jigsaw.w3.org/css-validator/) - When running the css validator for the first time there was only one error. <br>
-* Error: <br> There was a useless and not effective piece of code in my css, I had a ( position: center; ) rule on line 532 style.css. To solve this i simplely removed the css rule.
+* Error: <br> There was a useless and not effective line of code in my CSS, I had a ( position: center; ) rule on line 532 style.css. To solve this I simply removed the CSS rule.
 ![image](assets/images/readme.img/css-code.png)
-#
+
 Now when you run both CSS and HTML validators no errors or warnings show up.
 #
-## TESTING BROWESERS AND RESPONSIVE DESIGN.
-### Once my site was finihsed i checked my site works on diffrent web browsers and tested the sites screen size responsiveness. Here are the browsers i tested my site on.
+
+## Testing different Browsers and screen size responsiveness.
+### Once my site was finished, I checked my site works on different web browsers and tested the sites screen size responsiveness. Here are the browsers I tested my site on.
 
 * [Google Chrome](https://www.google.co.uk/chrome/)
 <br>* Browser test :  No issues were found, The site loaded first time as it should.
- <br>* Screen size test :   No issues were found when useing Chromes (   Inspect element ) feature to test diffrent sized screens. The Css media queries work as they should. <br>
+ <br>* Screen size test :   No issues were found when using Chromes (   Inspect element ) feature to test different sized screens. The CSS media queries work as they should. <br>
  <img src="assets/images/readme.img/chrome-responsive-design.png" height=500 width=500>
 
-* [FireFox](https://www.mozilla.org/en-GB/firefox/features/)
+* [Firefox](https://www.mozilla.org/en-GB/firefox/features/)
 <br>* Browser test :  No issues were found, The site loaded first time without fault.
- <br>* Screen size test : Useing FireFox's built in developer inspector i used the Responsive design mode and tested diffrent screens sizes out, No issues were found.
+ <br>* Screen size test : Using Firefox’s built in developer inspector I used the Responsive design mode and tested different screens sizes out, No issues were found.
 
 * [Microsoft Edge](https://support.microsoft.com/en-gb/microsoft-edge)
 <br>* Browser test :  No issues were found, The site loaded first time.
- <br>* Screen size test :   No issues were found when useing microsoft edges developer tool's to test screen sizes.
+ <br>* Screen size test :   No issues were found when using Microsoft edges developer tool's to test screen sizes.
 
 * [Brave](https://brave.com/)
 <br>* Browser test :  No issues were found. Site loads.
-<br>* Screen size test :   No issues were found useing developer responsive design tool.
+<br>* Screen size test :   No issues were found using braves developer responsive design tool. The site is responsive to all screen sizes.
 
 #
 
-## LIGHTHOUSE TESTING
-### Once i had tested my site on diffrent browsers and ensured it was responsive on all different screen sizes i generated a Lighthouse within google chrome to identify and fix common problems that effect my sites performance.
+
+## Lighthouse Testing 
+### Once I had tested my site on different browsers and ensured it was responsive on all different screen sizes I generated a Lighthouse report within google chrome to identify and fix common problems that affect my sites performance.
 <br>
-* The only issue it identified was that theogout my webpage the < em> tags contents were not vissible as much with the backbround i had choose, To solve this i simpley changed the color of < em> tags in css from black to #fff (White). This boosted my lighthouse score, Here is a photo of the finihsed report that i am happy with.<br>
+* The only issue it identified was that throughout my webpage the < em> tags contents were not visible as much with the background I had choose, To solve this I simply changed the colour of < em> tags in CSS from black to #fff (White). This boosted my lighthouse score. Here is a photo of the finished report that i am happy with.<br>
 <img src="assets/images/readme.img/Lighthouse-report.png" height=700 width=500>
 
-
-# TECHNOLOGIES USED.
+#
+# Technology’s used
 ## [HTML 5](https://en.wikipedia.org/wiki/HTML5)
 * Main structure language.
 ## [CSS](https://en.wikipedia.org/wiki/CSS)
 * Main styling language.
 ## [FONT AWESOME](https://fontawesome.com/)
-* Used to get iCons for social media links
+* Used to get icons for social media links
 ## [GITHUB](https://github.com/)
 * Used for hosting website and keeping work in a remote place and to deploy my site.
 ## [GITPOD](https://www.gitpod.io/)
 * GitPod was used for the development of my site.
 ## [TECHSINI](http://techsini.com/multi-mockup/index.php)
-* Used to crate a mock up image displaying the the site on diferent screen sizes.
+* Used to crate a mock up image displaying my site on different screen sizes.
 ## [TINYPNG](https://tinypng.com/)
 * Used to shrink images from online down to smaller sizes making my site faster.
 ## [BALSAMIQ](https://balsamiq.com/)
-* Used for wireframes of my site before i started on it.
+* Used for wireframes of my site before I started on it.
 
 #
-# DEPLOYMENT
+# Deployment
 
 ## Before the website was deployed,
-I had to use a tempoeary site ( Http.server ) to see the live changes while coding, To do this i used the ( Python3 -m http.server ) command in GitPod and that allowed me to see a live preview of my site while coding.
+I had to use a temporary site ( Http.server ) to see the live changes while coding, To do this I used the ( Python3 -m http.server ) command in GitPod and that allowed me to see a live preview of my site while coding.
 
 ## The project was deployed on GitHub Pages. 
-I used Gitpod as a development environment where I then commited all changes to github, I used (Git commit -m "" ) then (Git push)  command in Gitpod to save chnages to GitHub.
+I used Gitpod as a development environment where I then committed all changes to github, I used (Git commit -m "" ) then (Git push)  command in Gitpod to save changes to GitHub.
 <br>
 
-## Once my site was ready to deploy online i had to: <br>
+## Once my site was ready to deploy online I had to: <br>
 Log in to GitHub and click on repository to deploy (What-is-bitcoin-p1)
 select Settings and find GitHub Pages section at the very bottom of the page
-from source select none and then change the branch from "none" to "main" then once that was done i click save and the site is deployed after a refresh of the page.
+from source select none and then change the branch from "none" to "main" then once that was done I clicked save and the site was deployed after a refresh of the page.
 <br><br>
 View my deployed site here : [What is Bitcoin?](https://adamk99k.github.io/What-is-bitcoin-p1/)
+
 #
+
 # CREDITS
 
 
-* Hero Image - This was the image used at the top of each page. This copyright free image was taken from [Pixabay.](https://pixabay.com/photos/bitcoin-cryptocurrency-of-technology-6278312/) The contact page also has a seprate image, This image that sits behind the form also came from pixabay.
+* Hero Image - This was the image used at the top of each page. This copyright free image was taken from [Pixabay.](https://pixabay.com/photos/bitcoin-cryptocurrency-of-technology-6278312/) The contact page also has a separate image, This image that sits behind the form also came from PixaBay.
+
+* Whitepaper - For the whitepaper link on the home page I used [this website here.](https://bitcoinwhitepaper.co/)
 
 * Quotes about bitcoin - These quotes from my sites home page were taken from [InspirationFeed.](https://inspirationfeed.com/bitcoin-quotes/)
 
-* For some of the facts about Bitcoin i used this page [Iconic Holding](https://iconicholding.com/50-bitcoin-facts/) to get new facts i didn't know.
+* For some of the facts about Bitcoin I used this page [Iconic Holding](https://iconicholding.com/50-bitcoin-facts/) to get new facts I didn't know.
+
+
+I want to thank [Code Institute](https://codeinstitute.net/) as anytime I was stuck on creating this project I would go back to the Code institute learning library and find information that could help me, I also took the idea for the hero image and quote section from Code institute, Love Running project. 
 #
 
-I want to thank [Code Institute](https://codeinstitute.net/) as anytime i was stuck on creating this project i would go back to the Code institute learning libeary and find infomation that could help me, I also took the idea for the hero image and quote section from Code institute.
+I also want to thank the amazing [Slack](https://slack.com/intl/en-gb/) Community for helping me when I had any sort of questions.
 #
 
-I also want to thank the amazing [Slack](https://slack.com/intl/en-gb/) Comunity for helping me when i had any sort of questions.
-#
-
-My mentor @gbenga_mentor on Slack, was amazing, He helped to guide me in the right direction, He also helped me figure out what needs to be done such as ( Adding more comments in my code ) and removing useless code such as my form on the contact page having a action tag that was not needed for this project.
+My mentor @gbenga_mentor on Slack, was amazing, He helped to guide me in the right direction, He also helped me figure out what needs to be done such as ( Adding more comments in my code ) and removing useless code such as my form on the contact page having an action tag that was not needed for this project.
 
 #
 
-I want to thank my brother, Alex for helping me put the infomation for the Bitcoin and Altcoins sections into neat and newbie friendly order. He went through everything i worte and told me if it was to hard to understand, This resaulted in a more easy to follow sections as whatever was to hard to follow i removed.
+I also want to thank my brother, Alex for helping me put the information for the Bitcoin and Altcoins sections into neat and newbie friendly order. He went through everything I wrote and told me if it was too hard to understand, this resulted in more easy to follow sections as whatever was too complicated was removed from the site.
 
