@@ -4,17 +4,18 @@
 
 ## Want to have a look at my deployed project?   [What is Bitcoin](https://adamk99k.github.io/What-is-bitcoin-p1/)
 
-#
-
-The aim of my site is to simply educate and teach people about what Bitcoin and Altcoins are.  I wanted to create a website that has the main information about Bitcoin and other cryptocurrency without the over-the-top information that is out there on the internet today. <br><br>
-I decided to make this website with the intent to make it as simple and easy to follow along as possible. To make this idea possible I made three pages to my [What is Bitcoin? Website](https://adamk99k.github.io/What-is-bitcoin-p1/)<br>
-The first page being the home page. This page includes two informational text sections and another section for quotes about bitcoin. <br>
-The second page is about altcoins, this page is made up of just one easy to follow section on altcoins that educate the user.<br>
-The final page is a contact page adding even more value to any user who may have questions.
-<br><br>
-The target audience for my website are all types of people, from the younger generation such as college kids to the older genoration such as perants and grandparents that simply want to learn about bitcoin.
 <br>
-The idle user would be someone who has never learned about bitcoin and who is a complete newbie to this space as these users will gain the most value from this site. <br> 
+
+The aim of my site is to simply educate and teach people about what Bitcoin and Altcoins are.  I wanted to create a website that has only the main information about Bitcoin and other crypto currencies without the over-the-top information that is out there on the internet today. <br><br>
+I decided to make this website with the intent to make it as simple and easy to follow along as possible. To make this idea possible I made three pages to my [What is Bitcoin? Website.](https://adamk99k.github.io/What-is-bitcoin-p1/)<br>
+The first page being the home page. This page includes two informational text sections and another section for quotes about bitcoin. <br>
+The second page is about altcoins, this page is made up of just one easy to follow section on altcoins that educate the user. <br>
+The final page is a contact page adding even more value to any user who may need help or have questions to ask.
+<br><br>
+The target audience for my website are all types of people, from the younger generation such as college kids to the older generation such as parents and grandparents that simply want to learn about Bitcoin.
+<br>
+The idle user for my site would be someone who has never learned about bitcoin and who is a complete newbie to this space as these users will gain the most value from this site. <br>
+
 
 #
 
