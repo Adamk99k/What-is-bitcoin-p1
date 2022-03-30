@@ -34,11 +34,11 @@ seconds Zoom effect when the website is loaded, This eye catching animation grab
 
 #
 
-* Footer section. <br> Each pages footer section has four links to different social media's, These are large icons so that the user will acknowledge them, for the purpose of this project the links take you to the landing page for each social media used.
+* Footer section. <br> Each page’s footer section has four links to different social media's, These are large icons so that the user will acknowledge them, for the purpose of this project the links take you to the landing page for each social media used.
 ![image](assets/images/readme.img/site-footer.png)
 #
 
-* Hero image text. <br> On all three pages, overlapping the hero image is a text section, Each pages text is different but correlated to what each page is about. These sections provide quick value to the user and gives them a feel for the page there about to check out. 
+* Hero image text. <br> On all three pages, overlapping the hero image is a text section, each pages text is different but correlated to what each page is about. These sections provide quick value to the user and gives them a feel for the page there about to check out. 
 ![image](assets/images/readme.img/hero-image-cover-text.png)
  #
 
@@ -53,8 +53,8 @@ seconds Zoom effect when the website is loaded, This eye catching animation grab
 ![image](assets/images/readme.img/quote-section.png)
 #
 
-* Bitcoin, What is it? Text section. <br> The text that is within this section is the fundamental basics of Bitcoin, what it is and how it works. The aim of this section is to educate the user on Bitcoin without over complicating things as bitcoin for newbie's can be confusing. This section also becomes scrollable on extra large desktop screens.
-* Facts and Points about Bitcoin, Text section. <br>The aim of this section is to give interesting facts and points about Bitcoin that grab the users attention and fill in some of the questions they may have after reading the first Bitcoin section, such as who Satoshi Nakamoto is. There also is a short story of a pizza worth 10,000 BTC, this is a attention grabbing story that keeps the user interested.
+* Bitcoin, What is it? Text section. <br> The text that is within this section is the fundamental basics of Bitcoin, what it is and how it works. The aim of this section is to educate the user on Bitcoin without over complicating things as bitcoin for newbie's can be confusing. This section also becomes scrollable on extra-large desktop screens.
+* Facts and Points about Bitcoin, Text section. <br>The aim of this section is to give interesting facts and points about Bitcoin that grab the user’s attention and fill in some of the questions they may have after reading the first Bitcoin section, such as who Satoshi Nakamoto is. There also is a short story of a pizza worth 10,000 BTC, this is an attention grabbing story that keeps the user interested.
 ![image](assets/images/readme.img/home-page-text-sections.png)
 
 
@@ -65,7 +65,7 @@ seconds Zoom effect when the website is loaded, This eye catching animation grab
 
 ## Contact Page
 
-* Form : <br>The contact page has a form section where the user can ask any type of question in regards to all things Crypto. The value of this is that users who are new most defiantly have questions they need answering, so by adding this feature to my site it gives the complete package feeling, Users come, Learn about Bitcoin, then Altcoins then there able to ask anything they want. This encourages the user to ask freely and makes the learning experience more lasting. For the purpose of this project the form doesn’t have any action, meaning filled in forms are not sent anywhere but these details once submitted do display up in the URL. <br>
+* Form : <br>The contact page has a form section where the user can ask any type of question in regards to all things Crypto. The value of this is that users who are new most defiantly have questions they need answering, so by adding this feature to my site it gives the complete package feeling, Users come, learn about Bitcoin, then Altcoins then there able to ask anything they want. This encourages the user to ask freely and makes the learning experience more lasting. For the purpose of this project the form doesn’t have any action, meaning filled in forms are not sent anywhere but these details once submitted do display up in the URL. <br>
 <img src="assets/images/readme.img/form-page.png" width=500>
 
 ## Responsive Design
@@ -77,10 +77,10 @@ seconds Zoom effect when the website is loaded, This eye catching animation grab
 
 * One of the ideas I couldn’t implement is on the home pages quote section I wanted to make the quotes move around every 10 seconds and switch between other quotes until the user hovers over them.
 
-* I also wanted to make the navigation bar a button that users have to click to release a drop down navigation bar.
+* I also wanted to make the navigation bar a button that users have to click to release a drop-down navigation bar.
 
 * I also wanted to add a button that sticks to the page as the user scrolls down that once clicked takes users back up to the navigation bar.
-<br> <br> The reasons I couldn’t implement these were I haven’t yet learnt how to do so.
+<br> <br> The reasons I couldn’t implement these is that, I haven’t yet learnt how to do so.
 
 #
 
@@ -133,9 +133,9 @@ Now when you run both CSS and HTML validators no errors or warnings show up.
 
 
 ## Lighthouse Testing 
-### Once I had tested my site on different browsers and ensured it was responsive on all different screen sizes I generated a Lighthouse report within google chrome to identify and fix common problems that affect my sites performance.
+### Once I had tested my site on different browsers and ensured it was responsive on all different screen sizes, I generated a Lighthouse report within google chrome to identify and fix common problems that affect my sites performance.
 <br>
-* The only issue it identified was that throughout my webpage the < em> tags contents were not visible as much with the background I had choose, To solve this I simply changed the colour of < em> tags in CSS from black to #fff (White). This boosted my lighthouse score. Here is a photo of the finished report that i am happy with.<br>
+* The only issue it identified was that throughout my webpage the < em> tags contents were not visible as much with the background I had choose, to solve this I simply changed the colour of < em> tags in CSS from black to #fff (White). This boosted my lighthouse score. Here is a photo of the finished report that I am happy with.<br>
 <img src="assets/images/readme.img/Lighthouse-report.png" height=700 width=500>
 
 #
@@ -167,10 +167,10 @@ I had to use a temporary site ( Http.server ) to see the live changes while codi
 I used Gitpod as a development environment where I then committed all changes to github, I used (Git commit -m "" ) then (Git push)  command in Gitpod to save changes to GitHub.
 <br>
 
-## Once my site was ready to deploy online I had to: <br>
+## Once my site was ready to deploy online, I had to: <br>
 Log in to GitHub and click on repository to deploy (What-is-bitcoin-p1)
 select Settings and find GitHub Pages section at the very bottom of the page
-from source select none and then change the branch from "none" to "main" then once that was done I clicked save and the site was deployed after a refresh of the page.
+from source select none and then change the branch from "none" to "main" then once that was done, I clicked save and the site was deployed after a refresh of the page.
 <br><br>
 View my deployed site here : [What is Bitcoin?](https://adamk99k.github.io/What-is-bitcoin-p1/)
 
@@ -194,9 +194,9 @@ I want to thank [Code Institute](https://codeinstitute.net/) as anytime I was st
 I also want to thank the amazing [Slack](https://slack.com/intl/en-gb/) Community for helping me when I had any sort of questions.
 #
 
-My mentor @gbenga_mentor on Slack, was amazing, He helped to guide me in the right direction, He also helped me figure out what needs to be done such as ( Adding more comments in my code ) and removing useless code such as my form on the contact page having an action tag that was not needed for this project.
+My mentor @gbenga_mentor on Slack, was amazing, He helped to guide me in the right direction, He also helped me figure out what needs to be done such as ( Adding more comments in my code ) and removing useless code such as, My form on the contact page having an action tag that was not needed for this project.
 
 #
 
-I also want to thank my brother, Alex for helping me put the information for the Bitcoin and Altcoins sections into neat and newbie friendly order. He went through everything I wrote and told me if it was too hard to understand, this resulted in more easy to follow sections as whatever was too complicated was removed from the site.
+I also want to thank my brother, Alex for helping me put the information for the Bitcoin and Altcoins sections into neat and newbie friendly order. He went through everything I wrote and told me if it was too hard to understand, this resulted in easier to follow sections as whatever was too complicated was removed from the site.
 
