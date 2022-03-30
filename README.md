@@ -23,24 +23,25 @@ The idle user for my site would be someone who has never learned about bitcoin a
 
 # Features
 
-* Title.  <br> Each page shares the same level 1 title. This is Huge Bold text that tells the user exacly what the page is about, this provides clairity for the user.
+* Title.  <br> Each page shares the same level 1 title. This is Huge Bold text that tells the user exactly what the page is about, this provides clarity for the user.
 
-* Navagation bar.  <br> All three pages have the same navagation bar with three links refering to each page, Home / Altcoins and contact, this allows the user to have easy navigation throghout the website without having to use the back button.
+* Navigation bar.  <br> All three pages have the same navigation bar with three links referring to each page, Home / Altcoins and contact, this allows the user to have easy navigation throughout the website without having to use the back button on the site.
 
 
 * Hero image.  <br>All three pages have the same Hero Image that has a 10 
-seconds Zoom effect when the website is loeaded, This eye catching animation grabs the attention of the user.
+seconds Zoom effect when the website is loaded, This eye catching animation grabs the attention of the user.
 ![image](assets/images/readme.img/hero-image-readme.png)
 
 #
 
-* Footer section. <br> Each page's footer section has four links to diffrent social media's, These are large icons so that the user will acknowledge them, for the purpose of this project the links take you to the the landing page for each social media used.
+* Footer section. <br> Each pages footer section has four links to different social media's, These are large icons so that the user will acknowledge them, for the purpose of this project the links take you to the landing page for each social media used.
 ![image](assets/images/readme.img/site-footer.png)
 #
 
-* Hero image text. <br>  On all three pages overlaping the hero image is a text section, Each pages text is different but correlated to what each page is about. These sections provide quick value to the user and gives them a feel for the page there about to check out. 
+* Hero image text. <br> On all three pages, overlapping the hero image is a text section, Each pages text is different but correlated to what each page is about. These sections provide quick value to the user and gives them a feel for the page there about to check out. 
 ![image](assets/images/readme.img/hero-image-cover-text.png)
  #
+
 
 ## HOME PAGE
 
