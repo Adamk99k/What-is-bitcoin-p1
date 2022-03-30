@@ -49,7 +49,7 @@ seconds Zoom effect when the website is loaded, This eye catching animation grab
 ![image](assets/images/readme.img/question-home-page.png)
 #
 
-* Quote section. <br> The Home pages quote section lists five quotes about bitcoin from some of the biggest CEOs and Co CEO’s in the world. This section is interesting to the user as familiar, influential names are taking positively about the subject there wanting to learn more about, Bitcoin.
+* Quote section. <br> The Home pages quote section lists five quotes about Bitcoin from some of the biggest CEOs and Co CEO’s in the world. This section is interesting to the user as familiar, influential names are taking positively about the subject there wanting to learn more about, Bitcoin.
 ![image](assets/images/readme.img/quote-section.png)
 #
 
@@ -58,28 +58,32 @@ seconds Zoom effect when the website is loaded, This eye catching animation grab
 ![image](assets/images/readme.img/home-page-text-sections.png)
 
 
-## ALTCOINS PAGE
+## Altcoin Page
 
-* Altcoins text section. <br> The Altcoins Page is made up of just one simple text section, This sections aim is to educate the user on altcoins only providing usefull infomation such as what makes up the word "Altcoin" and not providing useless infomation such as a list of all the altcoins there are.
+* Altcoins text section. <br> The Altcoins Page is made up of just one simple text section, this section aims to educate the user on altcoins only providing useful information such as what makes up the word "Altcoin" and not providing useless information such as a list of all the altcoins there are available today.
 ![image](assets/images/readme.img/Altcoins-text-section.png)
-## CONTACT PAGE
 
-* Form : <br>The contact page has a form section where the user can ask any type of question in regards to all things Crypto. The value of this is that users who are new most deffently have questions they need answeing, So by adding this feature to my site it gives the complete package feeling, Users come, Learn about bitcoin, Then Altcoins then there able to ask anything they want. This encorages the user to ask freely and make's the learning experience more lasting. For the purpose of this project the form dosnt have any action, meaning filled in form's are not sent anywhere but these details once submited do display up in the URL. <br>
+## Contact Page
+
+* Form : <br>The contact page has a form section where the user can ask any type of question in regards to all things Crypto. The value of this is that users who are new most defiantly have questions they need answering, so by adding this feature to my site it gives the complete package feeling, Users come, Learn about Bitcoin, then Altcoins then there able to ask anything they want. This encourages the user to ask freely and makes the learning experience more lasting. For the purpose of this project the form doesn’t have any action, meaning filled in forms are not sent anywhere but these details once submitted do display up in the URL. <br>
 <img src="assets/images/readme.img/form-page.png" width=500>
 
-## RESPONSIVE DESIGN
-* The whole website has responsive css media queries added that allow users to view it on all device screens such as Large desktop's down to a small iPhone 5 / SE sized screen. This is demonstrated with the image above this features section.
-
-## FEATURES NOT IMPLEMENTED 
-
-* One of the ideas i couldnt inplement is on the home pages quote section i wanted to make the quotes move arround every 10 seconds and switch between other quotes untill the user hoovers over them.
-
-* I also wanted to make the naviagation bar a buttion that users have to click to relise a drop down navagation bar.
-
-* I also wanted to add a button that sticks to the page as the user scrools down that once clicked takes users back up to the navagtion bar.
-<br> <br> The resons i couldnt implemet these were i havnt yet leanrt how to do so.
+## Responsive Design
+* The whole website has responsive Css media queries added that allow users to view it on all device screens such as large desktop's down to a small iPhone 5 sized screen. This is demonstrated with the image above this features section.
 
 #
+
+## Features not implemented  
+
+* One of the ideas I couldn’t implement is on the home pages quote section I wanted to make the quotes move around every 10 seconds and switch between other quotes until the user hovers over them.
+
+* I also wanted to make the navigation bar a button that users have to click to release a drop down navigation bar.
+
+* I also wanted to add a button that sticks to the page as the user scrolls down that once clicked takes users back up to the navigation bar.
+<br> <br> The reasons I couldn’t implement these were I haven’t yet learnt how to do so.
+
+#
+
 # TESTING MY SITE 
 After completing my website i had to test and make sure my code were up to standard and no errors where hidden inside, To do this i first checked Code Validator's for both HTML and CSS then once i checked the validator on each page and fixed the issues i then went on to check lighthouse for a genral report on my site.
 
